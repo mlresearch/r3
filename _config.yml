@@ -1,0 +1,81 @@
+---
+booktitle: Proceedings of the Eighth International Workshop on Artificial Intelligence
+  and Statistics
+shortname: AISTATS
+start: 2001-01-04
+end: 2001-01-07
+url: http://proceedings.mlr.press
+firstpublished: 2001-01-04
+published: 2021-03-31
+layout: proceedings
+series: Proceedings of Machine Learning Research
+publisher: PMLR
+issn: 2640-3498
+id: aistats2001
+month: 0
+cycles: false
+bibtex_editor: Richardson, Thomas S. and Jaakkola, Tommi S.
+editor:
+- given: Thomas S.
+  family: Richardson
+- given: Tommi S.
+  family: Jaakkola
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of the Eighth International Workshop on Artificial Intelligence and Statistics
+    Held in Hyatt Hotel, Key West, Florida, USA on 04-07 January 2001
+
+  Published as Reissue 3 by the Proceedings of Machine Learning Research on 31 March 2021.
+
+  Volume Edited by:
+    Thomas S. Richardson
+    Tommi S. Jaakkola
+
+  Series Editors:
+    Neil D. Lawrence
+date_str: 04--07 Jan
+author:
+  name: PMLR
+baseurl: "/r3"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+exclude:
+- README.md
+- Gemfile
+- ".gitignore"
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+remote_theme: lawrennd/proceedings
+style: pmlr
+permalink: "/:title.html"
+ghub:
+  edit: true
+  repository: r3
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+volume_type: Reissue
+volume_dir: r3
+volume: R3
+email: ''
+conference:
+  name: International Workshop on Artificial Intelligence and Statistics
+  url:
+  location: Hyatt Hotel, Key West, Florida, USA
+  dates:
+  - 2001-01-04
+  - 2001-01-05
+  - 2001-01-06
+  - 2001-01-07
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+orig_bibfile: "/Users/neil/mlresearch/r3/aistats01.bib"
+# Site settings
+# Original source:  /Users/neil/mlresearch/r3/aistats01.bib
