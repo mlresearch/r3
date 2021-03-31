@@ -1,8 +1,5 @@
 ---
 title: 'Discriminant Analysis on Dissimilarity Data : a New Fast Gaussian like Algorithm'
-url: http://www.gatsby.ucl.ac.uk/aistats/aistats2001/files/guerin-dugue108.ps
-timestamp: Wed, 06 May 2015 01:00:00 +0200
-biburl: https://dblp.org/rec/conf/aistats/Guerin-DugueC01.bib
 abstract: Classifying objects according to their proximity is the fundamental task
   of pattern recognition and arises as a classification problem or discriminant analysis
   in experimental sciences. Here we consider a particular point of view on discriminant

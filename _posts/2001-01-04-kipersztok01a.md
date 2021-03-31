@@ -1,8 +1,5 @@
 ---
 title: Another look at sensitivity of Bayesian networks to imprecise probabilities
-url: http://www.gatsby.ucl.ac.uk/aistats/aistats2001/files/kipersztok176.pdf
-timestamp: Wed, 06 May 2015 01:00:00 +0200
-biburl: https://dblp.org/rec/conf/aistats/KipersztokW01.bib
 abstract: Empirical study of sensitivity analysis on a Bayesian network examines the
   effects of varying the network’s probability parameters on the posterior probabilities
   of the true hypothesis. One appealing approach to modeling the uncertainty of the

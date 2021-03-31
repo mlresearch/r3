@@ -1,0 +1,344 @@
+@Proceedings{aistats2001,
+    booktitle = {Proceedings of the Eighth International Workshop on Artificial Intelligence and Statistics},
+    name = {International Workshop on Artificial Intelligence and Statistics},
+    shortname = {AISTATS},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+    start = {2001-01-04},
+    end = {2001-01-07},
+    url = {http://aistats.org/aistats2001/},
+    firstpublished = {2001-01-04},
+    published = {2021-03-31},
+    address = {Hyatt Hotel, Key West, Florida, USA}
+}
+@inproceedings{almond146,
+  author    = {Russell G. Almond and Lou DiBello and Frank Jenkins and Deniz Senturk and Robert J. Mislevy and Linda S. Steinberg and Duanli Yan},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {Models for Conditional Probability Tables in Educational Assessment},
+  pages = {1--7},
+  abstract = {Experts in educational assessment can often identify the skills needed to provide a solution for a test item and which patterns of those skills pro duce better expected performance. The method described here combines judgements about the structure of the conditional probability table (e.g., conjunctive or compensatory) with Item Response Theory methods for partial credit scoring (Samejima, 1969) to produce a conditional probability table or a prior distribution for a learning algorithm. The structural judgements induce a projection of each configuration of parent skill variables onto a single latent response-propensity $\theta$. This is then used to calculate a probability for each cell in the table.}
+}
+@inproceedings{attias182,
+  author    = {Hagai Attias},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {Learning in high dimensions: Modular Mixture Models},
+  pages = {8-12},
+  abstract = {We present a new approach to learning prob- abilistic models for high dimensional data. This approach divides the data dimensions into low dimensional subspaces, and learns a separate mixture model for each subspace. The models combine in a principled manner to form a flexible modular network that pro- duces a total density estimate. We derive and demonstrate an iterative learning algorithm that uses only local information.}
+}
+@inproceedings{bottcher150,
+  author    = {Susanne Bottcher},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {Learning Bayesian networks with mixed variables},
+  pages = {13-20},
+  abstract = {The paper considers conditional Gaussian networks. As conjugate local priors, we use the Dirichlet distribution for discrete variables and the Gaussian-inverse Gamma distribution for continuous variables, given a configuration of the discrete parents. We assume parameter independence and complete data. Further, the network-score is calculated. We then develop a local master prior procedure, for deriving parameter priors in CG networks. The local master procedure satisfies parameter independence, parameter modularity and likelihood equivalence.}
+}
+@inproceedings{brown143,
+  author    = {Andrew D. Brown and Geoffrey E. Hinton},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {Products of Hidden Markov Models},
+  pages =     {21-28},
+  abstract =  {We present products of hidden Markov models (PoHMM's), a way of combining HMM's to form a distributed state time series model. Inference in a PoHMM is tractable and efficient. Learning of the parameters, although intractable, can be effectively done using the Product of Experts learning rule. The distributed state helps the model to explain data which has multiple causes, and the fact that each model need only explain part of the data means a PoHMM can capture longer range structure than an HMM is capable of. We show some results on modelling character strings, a simple language task and the symbolic family trees problem, which highlight these advantages.}
+}
+@inproceedings{bud159,
+  author    = {Ariel E. Bud and David W. Albrecht and Ann E. Nicholson and Ingrid Zukerman},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {Information-Theoretic Advisors in Invisible Chess},
+  pages =     {29-34},
+  abstract =  {Making decisions under uncertainty remains a central problem in AI research. Unfortunately, most uncertain real-world problems are so complex that progress in them is extremely difficult. Games model some elements of the real world, and offer a more controlled environment for exploring methods for dealing with uncertainty. Chess and chesslike games have long been used as a strategically complex test-bed for general AI research, and we extend that tradition by introducing an imperfect information variant of chess with some useful properties such as the ability to scale the amount of uncertainty in the game. We discuss the complexity of this game which we call invisible chess, and present results outlining the basic game. We motivate and describe the implementation and application of two information-theoretic advisors, and describe our decision-theoretic approach to combining these information-theoretic advisors with a basic strategic advisor. Finally we discuss promising preliminary results that we have obtained with these advisors.}
+}
+@inproceedings{caruana162,
+  author    = {Rich Caruana},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {A Non-Parametric EM-Style Algorithm for Imputing Missing Values},
+  pages =     {35-40},
+  abstract =  {We present an iterative non-parametric algorithm for imputing missing values. The algorithm is similar to EM except that it uses non-parametric models such as k-nearest neighbor or kernel regression instead of the parametric models used with EM. An interesting feature of the algorithm is that the E and M steps collapse into a single step because the data being filled in is the model
+- updating the filled-in values updates the model at the same time.
+
+The main advantages of this approach compared to parametric EM methods are that:
+1) it is more efficient for moderate size data sets, and 2) it is less susceptible to errors that parametric methods make when the parametric models do not fit the data well. The robustness to model failure makes the non-parametric method more accurate when models of the data are not known apriori and cannot be determined reliably. We evaluate the method using a real medical data set that has many missing values.}
+}
+@inproceedings{chipman148,
+  author    = {Hugh A. Chipman and Edward I. George and Robert E. McCulloch},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {Managing Multiple Models},
+  pages =     {41-48},
+  abstract =  {Recent research in model selection and adaptive modeling has produced an embarrassment of riches. By using any one of several different techniques, an analyst is able to generate a number of models that describe the same data set well. Examples include multiple tree models generated by bootstrapping or stochastic searches, and different subsets of variables in linear regression models identified by stochastic or exhaustive searches. While model averaging can use these models to improve prediction accuracy, interpretation of the resultant models becomes difficult. We seek a compromise, developing measures of dissimilarity between different models and using these to select good models which may reveal different aspects of the data. Data on housing prices in Boston are used to illustrate this in the context of treed regression models.}
+}
+@inproceedings{choi132,
+  author    = {Samuel Ping-Man Choi and Nevin Lianwen Zhang and Dit-Yan Yeung},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {Solving Hidden-Mode Markov Decision Problems},
+  pages =     {49-56},
+  abstract =  {Markov decision processes (HM-MDPs) are a novel mathematical framework for a subclass of nonstationary reinforcement learning problems where environment dynamics change over time according to a Markov process. HM-MDPs are a special case of partially observable Markov decision processes (POMDPs), and therefore nonstationary problems of this type can in principle be addressed indirectly via existing POMDP algorithms. However, previous research has shown that such an indirect approach is inefficient compared with a direct HM-MDP approach in terms of the model learning time. In this paper, we investigate how to solve HM-MDP problems efficiently by using a direct approach. We exploit the HM-MDP structure and derive an equation for dynamic programming update. Our equation decomposes the value function into a number of components and as a result, substantially reduces the amount of computations in finding optimal policies. Based on the incremental pruning and point-based improvement techniques, a value iteration algorithm is also implemented. Empirical results show that the HM-MDP approach outperforms the POMDP one several order of magnitude with respect to both space requirement and speed.}
+}
+@inproceedings{clyde129,
+  author    = {Merlise Clyde and Herbert Lee},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {Bagging and the Bayesian Bootstrap},
+  pages =     {57-62},
+  abstract =  {Bagging is a method of obtaining more robust predictions when the model class under consideration is unstable with respect to the data, i.e., small changes in the data can cause the predicted values to change significantly. In this paper, we introduce a Bayesian version of bagging based on the Bayesian bootstrap. The Bayesian bootstrap resolves a theoretical problem with ordinary bagging and often results in more efficient estimators. We show how model averaging can be combined within the Bayesian bootstrap and illustrate the procedure with several examples.}
+}
+@inproceedings{corduneanu151,
+  author    = {Adrian Corduneanu and Christopher M. Bishop},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {Hyperparameters for Soft Bayesian Model Selection},
+  pages =     {63-70},
+  abstract =  {Mixture models, in which a probability distribution is represented as a linear superposition of component distributions, are widely used in statistical modeling and pattern recognition. One of the key tasks in the application of mixture models is the determination of a suitable number of components. Conventional approaches based on cross-validation are computationally expensive, are wasteful of data, and give noisy estimates for the optimal number of components. A fully Bayesian treatment, based on Markov chain Monte Carlo methods for instance, will return a posterior distribution over the number of components. However, in practical applications it is generally convenient, or even computationally essential, to select a single, most appropriate model. Recently it has been shown, in the context of linear latent variable models, that the use of hierarchical priors governed by continuous hyperparameters whose values are set by typeII maximum likelihood, can be used to optimize model complexity. In this paper we extend this framework to mixture distributions by considering the classical task of density estimation using mixtures of Gaussians. We show that, by setting the mixing coefficients to maximize the marginal log-likelihood, unwanted components can be suppressed, and the appropriate number of components for the mixture can be determined in a single training run without recourse to crossvalidation. Our approach uses a variational treatment based on a factorized approximation to the posterior distribution.}
+}
+@inproceedings{cowell181,
+  author    = {Robert G. Cowell},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {On searching for optimal classifiers among Bayesian networks},
+  pages =     {71-76},
+  abstract =  {There is much interest in constructing from datasets Bayesian networks which are efficient, or even optimal, for classification purposes. Most search strategies usually discriminate between networks by comparing their marginal likelihood score, but recently it has been suggested that search strategies for classifiers should instead select among models using alternative scores. This paper contributes to this discussion by presenting the results of simulations on the sets of all directed acyclic graphs on four and five nodes. Our results add evidence to earlier indications that the marginal likelihood is likely to be a poor criterion to use for classifier selection.}
+}
+@inproceedings{cussens138,
+  author    = {James Cussens},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {Statistical Aspects of Stochastic Logic Programs},
+  pages =     {77-82},
+  abstract =  {Stochastic logic programs (SLPs) and the various distributions they define are presented with a stress on their characterisation in terms of Markov chains. Sampling, parameter estimation and structure learning for SLPs are discussed. The application of SLPs to Bayesian learning, computational linguistics and computational biology are considered. Lafferty's Gibbs-Markov models are compared and contrasted with SLPs.}
+}
+@inproceedings{dawid178,
+  author    = {A. Philip Dawid},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {Some variations on variation independence.},
+  pages =     {83-86},
+  abstract =  {Variation independence of functions is a simple natural 'irrelevance' property arising in a number of applications in Artificial Intelligence and Statistics. We show how it can be alternatively expressed in terms of two other representations of the same underlying structure: equivalence relations and $\tau$ -fields.}
+}
+@inproceedings{debodt105,
+  author    = {Eric de Bodt and Marie Cottrell and Michel Verleysen},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {Are they really neighbors? {A} statistical analysis of the {SOM} algorithm output},
+  pages = {87-92},
+  abstract = {One of the attractive features of Self-Organizing Maps (SOM) is the so-called "topological preservation property": observations that are close to each other in the input space (at least locally) remain close to each other in the SOM. In this work, we propose the use of a bootstrap scheme to construct a statistical significance test of the observed proximity among individuals in the SOM.}
+}
+@inproceedings{duff135,
+  author    = {Michael O. Duff},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {Monte-Carlo Algorithms for the Improvement of Finite-State Stochastic Controllers: Application to Bayes-Adaptive Markov Decision Processes},
+  pages =     {93-97},
+  abstract =  {We consider the problem of "optimal learning" for Markov decision processes with uncertain transition probabilities. Motivated by the correspondence between these processes and partially-observable Markov decision processes, we adopt policies expressed as finite-state stochastic automata, and we propose policy improvement algorithms that utilize Monte-Carlo techniques for gradient estimation and ascent.}
+}
+@inproceedings{freund154,
+  author    = {Yoav Freund and Yishay Mansour and Robert E. Schapire},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {Why Averaging Classifiers can Protect Against Overfitting},
+  pages =     {98-105},
+  abstract =  {We study a simple learning algorithm for binary classification. Instead of predicting with the best hypothesis in the hypothesis class, this algorithm predicts with a weighted average of all hypotheses, weighted exponentially with respect to their training error. We show that the prediction of this algorithm is much more stable than the prediction of an algorithm that predicts with the best hypothesis. By allowing the algorithm to abstain from predicting on some examples, we show that the predictions it makes when it does not abstain are very reliable. Finally, we show that the probability that the algorithm abstains is comparable to the generalization error of the best hypothesis in the class.}
+}
+@inproceedings{geurts123,
+  author    = {Pierre Geurts},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {Dual perturb and combine algorithm},
+  pages =     {106-111},
+  abstract =  {In this paper, a dual perturb and combine algorithm is proposed which consists in producing the perturbed predictions at the prediction stage using only one model. To this end, the attribute vector of a test case is perturbed several times by an additive random noise, the model is applied to each of these perturbed vectors and the resulting predictions are aggregated. An analytical version of this algorithm is described in the context of decision tree induction. From experiments on several datasets, it appears that this simple algorithm yields significant improvements on several problems, sometimes comparable to those obtained with bagging. When combined with decision tree bagging, this algorithm also improves accuracy in many problems.}
+}
+@inproceedings{green126,
+  author    = {Phil D. Green and Jon Barker and Martin Cooke and Ljubomir Josifovski},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {Handling Missing and Unreliable Information in Speech Recognition},
+  pages =     {112-116},
+  abstract =  {In this work, techniques for classification with missing or unreliable data are applied to the problem of noise-robustness in Automatic Speech Recognition (ASR). The primary advantage of this viewpoint is that it makes minimal assumptions about any noise background. As motivation, we review evidence that the auditory system is capable of dealing with incomplete data and, indeed, does so in normal listening conditions. We formulate the unreliable classification problem and show how it can be expressed in the framework of Continuous Density Hidden Markov Models for statistical ASR. We describe experiments on connected digit recognition in noise in which encouraging results are obtained. Results are improved by 'softening' the missing data decision. We argue that if the noise background is unpredictable it is necessary to integrate primitive processes which identify coherent spectraltemporal regions likely to be dominated by a single source with a generalised recognition decode which searches for the best sub-set of regions which match a speech source. We describe an implementation of a multi-source decoder using missing data recognition and show how it improves recognition results for non-stationary noises.}
+}
+@inproceedings{guerin-dugue108,
+  author    = {Anne Gu{\'{e}}rin{-}Dugu{\'{e}} and Gilles Celeux},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {Discriminant Analysis on Dissimilarity Data : a New Fast Gaussian like Algorithm},
+  pages =     {117-122},
+  abstract =  {Classifying objects according to their proximity is the fundamental task of pattern recognition and arises as a classification problem or discriminant analysis in experimental sciences. Here we consider a particular point of view on discriminant analysis from a dissimilarity data table. We develop a new approach, inspired from the Gaussian model in discriminant analysis, which defines a set a decision rules from simple statistics on the dissimilarity matrix between observations. This matrix can be only sparse dealing with huge databases. Numerical experiments on artificial and real data (proteins classification) show interesting behaviour compared to a $K$NN classifier,
+(i) equivalent error rate, (ii) dramatically lower CPU times and (iii) more robustness with sparse dissimilarity structure up to $40 \%$ of actual dissimilarity measures.}
+}
+@inproceedings{hojbjerre113,
+  author    = {Malene H{\o}jbjerre},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {Profile Likelihood in Directed Graphical Models from {BUGS} Output},
+  pages =     {123-128},
+  abstract =  {This paper presents a method for using output of the computer program BUGS to obtain approximate profile likelihood functions of parameters or functions of parameters in directed graphical models with incomplete data. The method also provides a tool to approximate integrated likelihood functions. The prior distributions specified in BUGS do not have a significant impact on the profile likelihood functions and we consider the method as a desirable supplement to BUGS that enables us to do both Bayesian and likelihood based analyses in directed graphical models.}
+}
+@inproceedings{jiang110,
+  author    = {Wenxin Jiang},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {Is regularization unnecessary for boosting?},
+  pages =     {129-136},
+  abstract =  {Boosting algorithms are often observed to be resistant to overfitting, to a degree that one may wonder whether it is harmless to run the algorithms forever, and whether regularization in on way or another is unnecessary [see, e.g., Schapire (1999); Friedman, Hastie and Tibshirani (1999); Grove and Schuurmans (1998); Mason, Baxter, Bartlett and Frean (1999)]. One may also wonder whether it is possible to adapt the boosting ideas to regression, and whether or not it is possible to avoid the need of regularization by just adopting the boosting device.
+
+In this paper we present examples where 'boosting forever' leads to suboptimal predictions; while some regularization method, on the other hand, can achieve asymptotic optimality, at least in theory. We conjecture that this can be true in more general situations, and for some other regularization methods as well. Therefore the emerging literature on regularized variants of boosting is not unnecessary, but should be encouraged instead. The results of this paper are obtained from an analogy between some boosting algorithms that are used in regression and classification.}
+}
+@inproceedings{jojic186,
+  author    = {Nebojsa Jojic and Patrice Y. Simard and Brendan J. Frey and David Heckerman},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {Learning mixtures of smooth, nonuniform deformation models for probabilistic image matching},
+  pages =     {137-142},
+  abstract =  {By representing images and image prototypes by linear subspaces spanned by "tangent vectors" (derivatives of an image with respect to translation, rotation, etc.), impressive invariance to known types of uniform distortion can be built into feedforward discriminators. We describe a new probability model that can jointly cluster data and learn mixtures of nonuniform, smooth deformation fields. Our fields are based on low-frequency wavelets, so they use very few parameters to model a wide range of smooth deformations (unlike, e.g., factor analysis, which uses a large number of parameters to model deformations). We give results on handwritten digit recognition and face recognition.}
+}
+@inproceedings{kayaalp179,
+  author    = {Mehmet Kayaalp and Gregory F. Cooper and Gilles Clermont},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {Predicting with Variables Constructed from Temporal Sequences},
+  pages =     {143-148},
+  abstract =  {In this study, we applied the local learning paradigm and conditional independence assumptions to control the rapid growth of the dimensionality introduced by multivariate time series. We also combined various univariate time series with different stationary assumptions in temporal models. These techniques are applied to learn simple Bayesian networks from temporal data and to predict survival probabilities of ICU patients on every day of their ICU stay.}
+}
+@inproceedings{kipersztok176,
+  author    = {Oscar Kipersztok and Haiqin Wang},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {Another look at sensitivity of Bayesian networks to imprecise probabilities},
+  pages =     {149-155},
+  abstract =  {Empirical study of sensitivity analysis on a Bayesian network examines the effects of varying the network's probability parameters on the posterior probabilities of the true hypothesis. One appealing approach to modeling the uncertainty of the probability parameters is to add normal noise to the log-odds of the nominal probabilities. However, the paper argues that differences in sensitivities found on true hypothesis may only be valid in the range of standard deviations where the log-odds normal distribution is unimodal. The paper also shows that using average posterior probabilities as criterion to measure the sensitivity may not be the most indicative, especially when the distribution is very asymmetric as is the case at nominal values close to zero or one. It is proposed, instead, to use the partial ordering of the most probable causes of diagnosis, measured by a suitable lower confidence bound. The paper also presents the preliminary results of our sensitivity analysis experiments with three Bayesian networks built for diagnosis of airplane systems. Our results show that some networks are more sensitive to imprecision in probabilities than previously believed.}
+}
+@inproceedings{kontkanen136,
+  author    = {Petri Kontkanen and Petri Myllym{\"{a}}ki and Henry Tirri},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {Comparing Prequential Model Selection Criteria in Supervised Learning of Mixture Models},
+  pages =     {156-161},
+  abstract =  {In this paper we study prequential model selection criteria in supervised learning domains. The main problem with this approach is the fact that the criterion is sensitive to the ordering the data is processed with. We discuss several approaches for addressing the ordering problem, and compare empirically their performance in real-world supervised model selection tasks. The empirical results demonstrate that with the prequential approach it is quite easy to find predictive models that are significantly more accurate classifiers than the models found by the standard unsupervised marginal likelihood criterion. The results also suggest that averaging over random orderings may be a more sensible strategy for solving the ordering problem than trying to find the ordering optimizing the prequential model selection criterion.}
+}
+@inproceedings{law119,
+  author    = {Martin H. C. Law and James Tin-Yau Kwok},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {Bayesian Support Vector Regression},
+  pages =     {162-167},
+  abstract =  {We show that the Bayesian evidence framework can be applied to both $\epsilon$-support vector regression ($\epsilon$-SVR) and $\nu$-support vector regression ($\nu$-SVR) algorithms. Standard SVR training can be regarded as performing level one inference of the evidence framework, while levels two and three allow automatic adjustments of the regularization and kernel parameters respectively, without the need of a validation set.}
+}
+@inproceedings{lawrence141,
+  author    = {Neil D. Lawrence},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {Variational Learning for Multi-Layer Networks of Linear Threshold Units},
+  pages =     {168-175},
+  abstract =  {Linear threshold units (LTUs) were originally proposed as models of biological neurons. They were widely studied in the context of the perceptron (Rosenblatt, 1962). Due to the difficulties of finding a general algorithm for networks with hidden nodes, they never passed into general use. In this work we derive an algorithm in the context of probabilistic models and show how it may be applied in multi-layer networks of LTUs. We demonstrate the performance of the algorithm on three data-sets.}
+}
+@inproceedings{lee118,
+  author    = {Lillian Lee},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {On the effectiveness of the skew divergence for statistical language analysis},
+  pages =     {176-183},
+  abstract =  {Estimating word co-occurrence probabilities is a problem underlying many applications in statistical natural language processing. Distance-weighted (or similarityweighted) averaging has been shown to be a promising approach to the analysis of novel co-occurrences. Many measures of distributional similarity have been proposed for use in the distance-weighted averaging framework; here, we empirically study their stability properties, finding that similarity-based estimation appears to make more efficient use of more reliable portions of the training data. We also investigate properties of the skew divergence, a weighted version of the KullbackLeibler (KL) divergence; our results indicate that the skew divergence yields better results than the KL divergence even when the KL divergence is applied to more sophisticated probability estimates.}
+}
+@inproceedings{mani131,
+  author    = {Subramani Mani and Gregory F. Cooper},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {A Simulation Study of Three Related Causal Data Mining Algorithms},
+  pages =     {184-191},
+  abstract =  {In all scientific domains causality plays a significant role. This study focused on evaluating and refining efficient algorithms to learn causal relationships from observational data. Evaluation of learned causal output is difficult, due to lack of a gold standard in real-world domains. Therefore, we used simulated data from a known causal network in a medical domain-the Alarm network. For causal discovery we used three variants of the Local Causal Discovery (LCD) algorithms, that are referred to as LCDa, LCDb and LCDc. These algorithms use the framework of causal Bayesian Networks to represent causal relationships among model variables. LCDa, LCDb and LCDe take as input a dataset and a partial node ordering, and output purported causes of the form variable $Y$ causally influences variable $Z$. Using the simulated Alarm dataset as input, LCDa had a false positive rate of $0.09$, LCDb $0.08$ and LCDc 0.04. All the algorithms had a true positive rate of about 0.27 . Most of the false positives occurred when a causal relationship was confounded. LCDc output as causal only those causally confounded pairs that had very weak confounding. We identify and discuss the causally confounded relationships that often seem to induce false positive results.}
+}
+@inproceedings{meek153,
+  author    = {Christopher Meek},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {Finding a path is harder than finding a tree},
+  pages =     {192-195},
+  abstract =  {This note shows that the problem of learning an optimal chain graphical model from data is NP-hard for the Bayesian, maximum likelihood, and minimum description length approaches. This hardness result holds despite the fact that the problem is a restriction of the polynomially solvable problem of finding the optimal tree graphical model.}
+}
+@inproceedings{meek158,
+  author    = {Christopher Meek and Bo Thiesson and David Heckerman},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {The Learning Curve Method Applied to Clustering},
+  pages =     {196-202},
+  abstract =  {We describe novel fast learning curve methods---methods for scaling inductive methods to large data sets---and their application to clustering. We describe the decision theoretic underpinnings of the approach and demonstrate significant performance gains on two real-world data sets.}
+}
+@inproceedings{meila177,
+  author    = {Marina Meil\u{a} and Jianbo Shi},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {A Random Walks View of Spectral Segmentation},
+  pages =     {203-208},
+  abstract =  {We present a new view of clustering and segmentation by pairwise similarities. We interpret the similarities as edge flows in a Markov random walk and study the eigenvalues and eigenvectors of the walk's transition matrix. This view shows that spectral methods for clustering and segmentation have a probabilistic foundation. We prove that the Normalized Cut method arises naturally from our framework and we provide a complete characterization of the cases when the Normalized Cut algorithm is exact. Then we discuss other spectral segmentation and clustering methods showing that several of them are essentially the same as NCut.}
+}
+@inproceedings{mika187,
+  author    = {Sebastian Mika and Alexander J. Smola and Bernhard Sch{\"{o}}lkopf},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {An improved training algorithm for kernel Fisher discriminants},
+  pages =     {209-215},
+  abstract =  {We present a fast training algorithm for the kernel Fisher discriminant classifier. It uses a greedy approximation technique and has an empirical scaling behavior which improves upon the state of the art by more than an order of magnitude, thus rendering the kernel Fisher algorithm a viable option also for large datasets.}
+}
+@inproceedings{needham122,
+  author    = {Scott Needham and David L. Dowe},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {Message Length as an Effective Ockham's Razor in Decision Tree Induction},
+  pages =     {216-223},
+  abstract =  {The validity of the Ockham's Razor principle is a topic of much debate. A series of empirical investigations have sought to discredit the principle by the application of decision trees to learning tasks using node cardinality as the objective function. As a response to these papers, we suggest that the message length of a hypothesis can be used as an effective interpretation of Ockham's Razor, resulting in positive empirical support for the principle. The theoretical justification for this Bayesian interpretation is also investigated.}
+}
+@inproceedings{nickerson155,
+  author    = {Adam Nickerson and Nathalie Japkowicz and Evangelos E. Milios},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {Using Unsupervised Learning to Guide Resampling in Imbalanced Data Sets},
+  pages =     {224-228},
+  abstract =  {The class imbalance problem causes a classifier to over-fit the data belonging to the class with the greatest number of training examples. The purpose of this paper is to argue that methods that equalize class membership are not as effective as possible when applied blindly and that improvements can be obtained by adjusting for the within-class imbalance. A guided resampling technique is proposed and tested within a simpler letter recognition domain and a more difficult text classification domain. A fast unsupervised clustering technique, Principal Direction Divisive Partitioning (PDDP), is used to determine the internal characteristics of each class. The performance improvement in categories that suffer from a large between-class imbalance (few positive examples) are shown to be improved when using the guided resampling method.}
+}
+@inproceedings{oza149,
+  author    = {Nikunj C. Oza and Stuart J. Russell},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {Online Bagging and Boosting},
+  pages =     {229-236},
+  abstract =  {Bagging and boosting are well-known ensemble learning methods. They combine multiple learned base models with the aim of improving generalization performance. To date, they have been used primarily in batch mode, and no effective online versions have been proposed. We present simple online bagging and boosting algorithms that we claim perform as well as their batch counterparts.}
+}
+@inproceedings{pena183,
+  author    = {Jos{\'{e}} M. Pe{\~{n}}a and I. Izarzugaza and Jos{\'{e}} Antonio Lozano and E. Aldasoro and Pedro Larra{\~{n}}aga},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {Geographical Clustering of Cancer Incidence by Means of {B}ayesian Networks and Conditional {G}aussian Networks},
+  pages =     {237-242},
+  abstract =  {With the aim of improving knowledge on the geographical distribution and characterization of malignant tumors in the Autonomous Community of the Basque Country (Spain), age-standardized cancer incidence rates of the 6 most frequent cancer types for patients of each sex between 1986 and 1994 are analyzed, in relation to the towns of the Community. Concretely, we perform a geographical clustering of the towns of the Community by means of Bayesian networks and conditional Gaussian networks. We present several maps that show the clusterings encoded by the learnt models. In addition to this, we outline the cancer incidence profile for each of the obtained clusters.}
+}
+@inproceedings{provan128,
+  author    = {Gregory M. Provan},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {Stochastic System Monitoring and Control},
+  pages =     {243-250},
+  abstract =  {In this article we propose a new technique for efficiently solving a specialized instance of a finite state sequential decision process. This specialized task requires keeping a system within a set of nominal states, introducing control actions only when forbidden states are entered. Instead of assuming that the process evolves only due to control actions, we assume that system evolution occurs due to both internal system dynamics and control actions, referred to as endogenous and exogenous evolution respectively. Since controls are needed only for exogenous evolution, we separate inference for the case of endogenous and exogenous evolution, obtaining an inference method that is computationally simpler than using a standard POMDP framework for solving this task. We summarize the problem framework and the algorithm for performing sequential decision-making.}
+}
+@inproceedings{raphael114,
+  author    = {Christopher Raphael},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {Can the Computer Learn to Play Music Expressively?},
+  pages =     {251-258},
+  abstract =  {A computer system is described that provides a real-time musical accompaniment for a live soloist in a piece of non-improvised music. A Bayesian belief network is developed that represents the joint distribution on the times at which the solo and accompaniment notes are played as well as many hidden variables. The network models several important sources of information including the information contained in the score and the rhythmic interpretations of the soloist and accompaniment which are learned from examples. The network is used to provide a computationally efficient decision-making engine that utilizes all available information while producing a flexible and musical accompaniment.}
+}
+@inproceedings{rusakov167,
+  author    = {Dmitry Rusakov and Dan Geiger},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {On Parameter Priors for Discrete {DAG} Models},
+  pages =     {259-264},
+  abstract =  {We investigate parameter priors for discrete DAG models. It was shown in previous works that a Dirichlet prior on the parameters of a discrete DAG model is inevitable assuming global and local parameter independence for all possible complete DAG structures. A similar result for Gaussian DAG models hinted that the assumption of local independence may be redundant.
+
+Herein, we prove that the local independence assumption is necessary in order to dictate a Dirichlet prior on the parameters of a discrete DAG model. We explicate the minimal set of assumptions needed to dictate a Dirichlet prior, and we derive the functional form of prior distributions that arise under the global independence assumption alone.}
+}
+@inproceedings{scheines164,
+  author    = {Richard Scheines and Gregory F. Cooper and Changwon Yoo and Tianjiao Chu},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {Piecewise Linear Instrumental Variable Estimation of Causal Influence},
+  pages =     {265-271},
+  abstract =  {Instrumental Variable (IV) estimation is a powerful strategy for estimating causal  influence, even in the presence of confounding. Standard IV estimation requires that the relationships between variables is linear. Here we relax the linearity requirement by constructing a piecewise linear IV estimator. Simulation studies show that when the causal influence of $X$ on $Y$ is non-linear, the piecewise linear is an improvement.}
+}
+@inproceedings{smith175,
+  author    = {Duncan Smith},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {The Efficient Propagation of Arbitrary Subsets of Beliefs in Discrete-Valued Bayesian Networks},
+  pages =     {272-277},
+  abstract =  {The paper describes an approach for propagating arbitrary subsets of beliefs in Bayesian Belief Networks. The method is based on a multiple message passing scheme in junction trees. A hybrid tree structure is introduced, both for the propagation of evidence and as an efficiently permutable representation of a decomposable graph. The use of maximal prime subgraph decompositions and tree permutations to reduce computational cost is demonstrated.}
+}
+@inproceedings{spirtes156,
+  author    = {Peter Spirtes},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {An Anytime Algorithm for Causal Inference},
+  pages =     {278-285},
+  abstract =  {The Fast Casual Inference (FCI) algorithm searches for features common to observationally equivalent sets of causal directed acyclic graphs. It is correct in the large sample limit with probability one even if there is a possibility of hidden variables and selection bias. In the worst case, the number of conditional independence tests performed by the algorithm grows exponentially with the number of variables in the data set. This affects both the speed of the algorithm and the accuracy of the algorithm on small samples, because tests of independence conditional on large numbers of variables have very low power. In this paper, I prove that the FCI algorithm can be interrupted at any stage and asked for output. The output from the interrupted algorithm is still correct with probability one in the large sample limit, although possibly less informative (in the sense that it answers "Can't tell" for a larger number of questions) than if the FCI algorithm had been allowed to continue uninterrupted.}
+}
+@inproceedings{storkey109,
+  author    = {Amos J. Storkey and Christopher K. I. Williams},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {Dynamic Positional Trees for Structural Image Analysis},
+  pages =     {286-292},
+  abstract =  {Dynamic positional trees are a significant extension of dynamic trees, incorporating movable nodes. This addition makes sequence tracking viable within the model, but requires a new formulation to incorporate the prior over positions. The model is implemented using a structured variational procedure, and is illustrated on synthetic raytraced images and image sequences.}
+  }
+@inproceedings{tawfik147,
+  author    = {Ahmed Y. Tawfik and Greg Scott},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {Temporal Matching under Uncertainty},
+  pages =     {293-297},
+  abstract =  {Temporal matching is the problem of matching observations to predefined temporal patterns or templates. This problem arises in many applications including medical and model-based diagnosis, plan-recognition, and temporal databases. This work examines the sources of uncertainty in temporal matching and presents a probabilistic technique to perform temporal matching under uncertainty. This technique is then applied to the problem of finding the onset of infection with \emph{Toxoplasma Gondii}.}
+}
+@inproceedings{tipping140,
+  author    = {Michael E. Tipping and Bernhard Sch{\"{o}}lkopf},
+  editor    = {Thomas S. Richardson and Tommi S. Jaakkola},
+  title     = {A Kernel Approach for Vector Quantization with Guaranteed Distortion Bounds},
+  pages =     {298-303},
+  abstract =  {We propose a kernel method for vector quantization and clustering. Our approach allows a priori specification of the maximally allowed distortion, and it automatically finds a sufficient representative subset of the data to act as codebook vectors (or cluster centres). It does not find the minimal number of such vectors, which would amount to a combinatorial problem; however, we find a 'good' quantization through linear programming.}
+}
+

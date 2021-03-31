@@ -1,8 +1,5 @@
 ---
 title: Hyperparameters for Soft Bayesian Model Selection
-url: http://www.gatsby.ucl.ac.uk/aistats/aistats2001/files/corduneanu151.ps
-timestamp: Wed, 06 May 2015 01:00:00 +0200
-biburl: https://dblp.org/rec/conf/aistats/CorduneanuB01.bib
 abstract: Mixture models, in which a probability distribution is represented as a
   linear superposition of component distributions, are widely used in statistical
   modeling and pattern recognition. One of the key tasks in the application of mixture
